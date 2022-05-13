@@ -62,7 +62,7 @@ const Portfolio = () => {
                 description="A ML model to detect and locate room occupancy implemented using openCV, HOG and SVM. The model is higly optimized to run on resource constrained computing devices, such as a rapsberry pi"
                 images = {["occupancy/Screenshot2.png", "occupancy/Screenshot1.png", "occupancy/Screenshot3.png", "occupancy/Screenshot4.png"]}
                 usedStacks = {['Python', 'Flask', 'Machine learning', 'OpenCV', 'SVM']}
-                projectURL = "https://johnkdunyo-youtube-clone.netlify.app/"
+                projectURL = "http://jitce.fti.unand.ac.id/index.php/JITCE/article/view/165"
                 githubURL = 'https://github.com/johnkdunyo/Room-Based-Occupancy-Detection'
             />
           
