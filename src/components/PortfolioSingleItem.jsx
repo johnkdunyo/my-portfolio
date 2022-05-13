@@ -12,7 +12,7 @@ import "swiper/css/thumbs";
 
 const PortfolioSingleItem = ({id, title, description, images, usedStacks, projectURL, githubURL }) => {
 
-    const [thumbsSwiper, setThumbsSwiper] = useState(null);
+    const [thumbsSwiper, ] = useState(null);
 
     // const title = "The NotesApp";
     // const description = "A simple, efficient, free note taking software developed with reactjs and expressjs"
