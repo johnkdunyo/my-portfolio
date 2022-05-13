@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, FreeMode, Thumbs } from 'swiper';
+import { Navigation, Pagination, FreeMode, Thumbs, Autoplay } from 'swiper';
 
 
 
@@ -38,7 +38,7 @@ const PortfolioSingleItem = ({id, title, description, images, usedStacks, projec
                             navigation={true}
                             pagination={true}
                             thumbs={{ swiper: thumbsSwiper }}
-                            modules={[FreeMode, Navigation, Thumbs, Pagination]}
+                            modules={[FreeMode, Navigation, Thumbs, Pagination, Autoplay]}
                             className="mySwiper2"
                         >
                         {images.map((image=>(
@@ -90,7 +90,7 @@ const PortfolioSingleItem = ({id, title, description, images, usedStacks, projec
                             navigation={true}
                             pagination={true}
                             thumbs={{ swiper: thumbsSwiper }}
-                            modules={[FreeMode, Navigation, Thumbs, Pagination]}
+                            modules={[FreeMode, Navigation, Thumbs, Pagination, Autoplay]}
                             className="mySwiper2"
                         >
                         {images.map((image=>(

@@ -24,7 +24,7 @@ const Header = () => {
                 <button type="button" className="menu__mobile-button">
                     <span>
                         <Icon path={mdiMenu}
-                            title="Twitter @johnkdunyo"
+                            title="mobile menu"
                             size={1.5}
                             // color="white"
                         />

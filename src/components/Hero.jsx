@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Icon from '@mdi/react'
-import {  mdiGithub, mdiLinkedin, mdiTwitter } from '@mdi/js'
+import {  mdiGithub, mdiLinkedin, mdiTwitter, mdiSchool } from '@mdi/js'
+
 
 const Hero = () => {
   return (
@@ -25,30 +25,39 @@ const Hero = () => {
                 </div>
                 <p className="personal-profile__social">
 
-                    <Link to="https://www.linkedin.com/in/johnkdunyo/" target="_blank">
+                    <a href="https://www.linkedin.com/in/johnkdunyo/" target="_blank" rel='noreferrer'>
                         <Icon path={mdiLinkedin}
                             title="LinkedIn @johnkdunyo"
                             size={1.5}
                             color="white"
                         />
-                    </Link>
+                    </a>
 
-                    <Link to="https://github.com/johnkdunyo" target="_blank">
+                    <a href="https://github.com/johnkdunyo" target="_blank" rel='noreferrer'>
                         <Icon path={mdiGithub}
                             title="Github @johnkdunyo"
                             size={1.5}
                             color="white"
                         />
-                    </Link>
+                    </a>
 
 
-                    <Link to="https://twitter.com/johnkdunyo" target="_blank">
+                    <a href="https://twitter.com/johnkdunyo" target="_blank" rel='noreferrer'>
                         <Icon path={mdiTwitter}
                             title="Twitter @johnkdunyo"
                             size={1.5}
                             color="white"
                         />
-                    </Link>
+                    </a>
+
+                    <a href="https://scholar.google.com/citations?user=PZfAUoUAAAAJ&hl=en" target="_blank" rel='noreferrer'>
+                        <Icon path={mdiSchool}
+                            title="Google Scholar @johnkdunyo"
+                            size={1.5}
+                            color="white"
+                        />
+                    </a>
+
                 </p>
                 </div>
             </div>
