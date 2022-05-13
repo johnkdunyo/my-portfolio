@@ -6,6 +6,7 @@ import React from 'react';
 // Import Swiper styles
 import 'swiper/css';
 import PortfolioSingleItem from './PortfolioSingleItem';
+import PortfolioSingleItem2 from './PortfolioSingleItem2';
 
 const Portfolio = () => {
 
@@ -52,6 +53,17 @@ const Portfolio = () => {
                 usedStacks = {['Reactjs', 'Reduxjs', 'Axios', 'html-entities', 'Youtube API' ]}
                 projectURL = "https://johnkdunyo-youtube-clone.netlify.app/"
                 githubURL = 'https://github.com/johnkdunyo/React-Youtube-Clone'
+            />
+
+            <PortfolioSingleItem2
+                key = 'four'
+                id='portfolio4'
+                title='Room Occupancy Detection Model'
+                description="A ML model to detect and locate room occupancy implemented using openCV, HOG and SVM. The model is higly optimized to run on resource constrained computing devices, such as a rapsberry pi"
+                images = {["occupancy/Screenshot2.png", "occupancy/Screenshot1.png", "occupancy/Screenshot3.png", "occupancy/Screenshot4.png"]}
+                usedStacks = {['Python', 'Flask', 'Machine learning', 'OpenCV', 'SVM']}
+                projectURL = "https://johnkdunyo-youtube-clone.netlify.app/"
+                githubURL = 'https://github.com/johnkdunyo/Room-Based-Occupancy-Detection'
             />
           
 
